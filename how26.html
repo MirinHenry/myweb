@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEARNING MEDIA QUERIES</title>
+    <style>
+        body {
+            background-color: green;
+            background-image: radial-gradient(lightgray, green);
+        }
+        
+        #img1 {
+            width: 300px;
+            height: 300px;
+            border: none;
+        }
+        
+        p {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+        
+        #img2 {
+            width: 300px;
+            height: 300px;
+            border: none;
+        }
+        
+        #img3 {
+            width: 300px;
+            height: 300px;
+            border: none;
+        }
+        
+        @media screen and (min-width: 600px) {
+            body {
+                background-color: red;
+                background-image: radial-gradient(lightgray, pink);
+            }
+            #img1 {
+                width: 250px;
+                height: auto;
+            }
+            #img2 {
+                width: 250px;
+                height: auto;
+            }
+            #img3 {
+                width: 250px;
+                height: auto;
+            }
+            p {
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="bonus.jpg" id="img1">
+    <p>yghur rfgrufur frhuyr uhru></p>
+
+
+    <img src="henry.jpg" id="img2">
+    <p>yghur rfgrufur frhuyr uhru></p>
+
+
+    <img src="kile.jpg" id="img3">
+    <p>yghur rfgrufur frhuyr uhru></p>
+
+</body>
+
+</html>
